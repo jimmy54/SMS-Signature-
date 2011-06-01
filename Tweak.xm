@@ -22,12 +22,13 @@ static	BOOL useSig;
 		text = returnText;
 	}
 
-	return %orig;	
+		
 	[originalText release];	
 	[settingsSignature release];	
 	[userSignature release];	
 	[returnText release];	
 	[settingsDictionary release];
 	[settingsDictionary release];
+return %orig;
 }
 %end
